@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Documentation Little Neko</title>
+  <!-- Mobile viewport optimized -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- Framework  -->
+  <link type="text/css" rel="stylesheet" href="../../files/neko-framework/bootstrap/dist/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="../../files/neko-framework/css/layout/neko-framework-layout.css">
+  <link type="text/css" rel="stylesheet" href="../../files/neko-framework/css/color/neko-framework-color.css">
+  <!-- web font  -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,800' rel='stylesheet' type='text/css'>
+  <!-- icon font  -->
+  <link type="text/css" rel="stylesheet" href="../custom-icons/css/custom-icons.css">
+  <!-- main menu -->
+  <link href="css/jquery.tocify.css" rel="stylesheet">
+  <!-- rayHtml -->
+  <link rel="stylesheet" type="text/css" href="js/x-rayHtml/X-rayHTML.css" />
+  <link rel="stylesheet" type="text/css" href="js/x-rayHtml/libs/prism.css" />
+  <link rel="stylesheet" type="text/css" href="js/x-rayHtml/demo.css" />
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header id="mainHeader">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <nav class="navbar navbar-default">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="images/neko-logo.png" alt="Little Neko"></a>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="components.html">Components</a></li>
+            <li><a href="javascripts.html">Javascript</a></li>
+            <li><a href="http://www.little-neko.com/" class="nav-2" target="_blank">About us</a></li>
+            <li><a href="http://www.little-neko.com/portfolio-little-neko-website-templates/" target="_blank" class="nav-2">Templates</a></li>
+            <li><a href="http://www.little-neko.com/support/" target="_blank" class="nav-2">Support</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+    </div>
+  </header>
+  <section id="home">
+    <div class="container">
+      <div class="col-md-12">
+        <h1>Neko CSS Framework</h1>
+        <p>Documentation by "LITTLE NEKO"</p>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <div class="row">
+      <div class="tocify col-sm-3 col-md-3">
+        <div id="toc">
+        </div><!--/.well -->
+      </div><!--/span-->
+      <div class="col-sm-9 col-md-9 content">
+        <section class="info">
+          <h1>A CSS framework based on bootstrap 3</h1>
+          <p>
+          <strong>The Neko CSS Framework</strong> is an extension of the Twitter Bootstrap Framework. It gives you new tools to create your layouts, managing colors and useful components
+          <p>
+            Before you get started, please be sure to always check out these documentation files. We outline all kinds of good information, and provide you with all the details you need to use.
+          </p>
+
+          <p>
+            We tried to include anything you need in this documentation file. However, if you need help, please register to our support forum.<br/>
+            We will do our best to assist you with any issues/bugs related to the use of our themes and templates.<br/>
+            Theme support is offered to verified customers by forum only. Support requests made by email, tweet or any other method will be redirected back to this forum.<br />
+            <strong>Unfortunately we are not able to provide support for customizations or using 3rd party plugins.</strong>
+          </p>
+          <br />
+          <a href="http://support.little-neko.com/" target="_blank" class="btn">Register here</a>
+        </section>
+
+
+
+       <!-- Colors -->
+       <h2 class="ln-doc">Colors</h2>
+       <section class="slice">
+        <h3>Default color scheme</h3>
+        <p>Neko CSS Framework adds color palette to Bootstrap. The main color comes with darker and lighter value, a dark and light colors add even more flexibility for color design.
+        </p>
+
+        <div class="ln-doc-example">
+          <ul class="ln-color-palette">
+            <li class="dark-main-color">Dark main color</li>
+            <li class="main-color">Main color</li>
+            <li class="light-main-color">Light main color</li>
+            <li class="dark-color">Dark color</li>
+            <li class="lightn-color">Light color</li>
+          </ul>
+        </div>
+
+        <h3>Colors inside sections</h3>
+        <p>
+          Colors classes can be added to section, and to most elements of the framework.
+
+        </p>
+
+        <div class="ln-doc-example">
+          <ul class="ln-color-palette">
+            <li class="main-color">
+              <div class="block main-color">Main color</div>
+            </li>
+            <li class="main-color">
+             <div class="block dark-main-color">Dark main color</div>
+           </li>
+           <li class="main-color">
+             <div class="block light-main-color">Light main color</div>
+           </li>
+           <li class="main-color">
+             <div class="block dark-color">Dark color</div>
+           </li>
+           <li class="main-color">
+             <div class="block light-color">Light color</div>
+           </li>
+         </ul>
+       </div>
+
+       <h3>Colors inside sections (same color)</h3>
+       <p>
+        When the same colors classe is added to the parent section and the element, the element background color is lightened or darkened to keep it visible.
+
+      </p>
+
+      <div class="ln-doc-example">
+        <ul class="ln-color-palette">
+         <li class="dark-main-color">
+           <div class="block dark-main-color">Dark main color</div>
+         </li>
+         <li class="main-color">
+          <div class="block main-color">Main color</div>
+        </li>
+        <li class="light-main-color">
+         <div class="block light-main-color">Light main color</div>
+       </li>
+       <li class="dark-color">
+         <div class="block dark-color">Dark color</div>
+       </li>
+       <li class="light-color">
+         <div class="block light-color">Light color</div>
+       </li>
+     </ul>
+   </div>
+ </section>
+ <!-- /Colors -->
+ <!-- Components -->
+ <h2 class="ln-doc">Components</h2>
+       <section class="slice">
+        <p>
+          All Bootstrap components are supported, please refer to Bootstrap documentation for grid information or complementary informations about components. <a href="http://getbootstrap.com/" target="_blank"> http://getbootstrap.com</a>.
+        </p>
+        <p>
+          On top of Bootsrap, we added a lot of components and utilities described in this document.
+        </p>
+       </section>
+  <!-- Components -->
+
+   <!-- Semantic -->
+ <h2 class="ln-doc">Semantic</h2>
+       <section class="slice">
+        <p>
+          As far as possible, we add more semantic to Bootstrap, in order to make the framework more readable and user friendly. Of course, if you are used to Bootstrap conventions, you can still use them.
+</p>
+
+          <div class="alert alert-info">
+
+            <h2>Example with a button</h2>
+            <a href="#" class="btn default large">My button</a>
+            <h3>Bootstrap syntax</h3>
+            &lt;a href="#" class="btn btn-default btn-lg"&gt;My button&lt;/a&gt;
+            <h3>Neko Framework syntax</h3>
+            &lt;a href="#" class="btn default large"&gt;My button&lt;/a&gt;
+          </div>
+          
+        
+        
+       </section>
+  <!-- Semantic -->
+
+
+
+ <!-- ========================= CREDITS ========================= -->
+ <h2 class="ln-doc">Credits</h2>
+ <section class="slice">
+
+  <p>
+    Once again, thank you so much for purchasing this template. As we said at the beginning, we&#39;d be glad to help you if you have any questions relating to this template. Please contact us via our <a href="http://support.little-neko.com/">support forum</a>. We&#39;ll do our best to assist you!
+  </p>
+
+</section>
+
+
+
+</div><!--/row-->
+
+</div><!--/.fluid-container-->
+
+<!-- Le javascript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="js/jquery/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="js/jquery.tocify.min.js"></script>
+
+
+  <!-- X-rayHTML -->
+  <script type="text/javascript" src="js/x-rayHtml/X-rayHTML.js"></script>
+  <script type="text/javascript" src="js/x-rayHtml/libs/prism.min.js"></script>
+  <script type="text/javascript" src="js/x-rayHtml/libs/ZeroClipboard.min.js"></script>
+  <script type="text/javascript" src="js/x-rayHtml/X-rayHtml-config.js"></script>
+
+  <script src="js/main.js"></script>
+
+
+</div></body></html>

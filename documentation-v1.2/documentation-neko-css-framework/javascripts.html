@@ -1,0 +1,1197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Documentation Little Neko</title>
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<!-- web font  -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,800' rel='stylesheet' type='text/css'>
+	
+	<!-- icon font  -->
+	<link type="text/css" rel="stylesheet" href="../../files/neko-framework/font-icons/custom-icons/css/custom-icons.css">
+	
+	<!-- main menu -->
+	<link href="css/jquery.tocify.css" rel="stylesheet">
+	
+	<!-- rayHtml -->
+	<link rel="stylesheet" type="text/css" href="js/x-rayHtml/X-rayHTML.css" />
+	<link rel="stylesheet" type="text/css" href="js/x-rayHtml/libs/prism.css" />
+	<link rel="stylesheet" type="text/css" href="js/x-rayHtml/demo.css" />
+
+	<!-- Neko framework  -->
+	<link type="text/css" rel="stylesheet" href="../../files/custom-icons/css/custom-icons.css">
+	<link type="text/css" rel="stylesheet" href="../../files/neko-framework/external-plugins/external-plugins.min.css">
+	<link type="text/css" rel="stylesheet" href="../../files/neko-framework/css/layout/neko-framework-layout.css">
+	<link type="text/css" rel="stylesheet" href="../../files/neko-framework/css/color/neko-framework-color.css">
+
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+	<script src="../../files/neko-framework/external-plugins/modernizr/modernizr.custom.js"></script>
+	
+</head>
+
+<body>
+	<header id="mainHeader">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<nav class="navbar navbar-default">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="images/neko-logo.png" alt="Little Neko"></a>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="css.html">CSS</a></li>
+						<li><a href="components.html">Components</a></li>
+						<li><a href="javascripts.html" class="active">Javascript</a></li>
+						<li><a href="http://www.little-neko.com/" class="nav-2" target="_blank">About us</a></li>
+						<li><a href="http://www.little-neko.com/portfolio-little-neko-website-templates/" target="_blank" class="nav-2">Templates</a></li>
+						<li><a href="http://www.little-neko.com/support/" target="_blank" class="nav-2">Support</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</nav>
+		</div>
+	</header>
+	<section id="home">
+		<div class="container">
+			<div class="col-md-12">
+				<h1>Javascript</h1>
+				<p>Styling and add-ons to Bootstrap default jQuery components, plus a bunch of exclusive Neko stuff.</p>
+			</div>
+		</div>
+	</section>
+	<div class="container">
+		<div class="row">
+			<div class="tocify col-sm-3 col-md-3">
+				<div id="toc">
+				</div><!--/.well -->
+			</div><!--/span-->
+			<div class="col-sm-9 col-md-9 content">
+				<h2 class="ln-doc">Nav bar</h2>
+				<section class="slice">
+					<div class="ln-doc-example">
+<div class="prism zeroclip" data-xrayhtml><header class="menu-header" role="banner">
+	<section class="pre-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12  text-right">
+					<ul class="social-icons">
+						<li>
+							<a href="#" class=" rss circle" title="rss">
+								<i class="icon-glyph-342"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="facebook circle" title="facebook">
+								<i class="icon-glyph-320"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="twitter circle" title="twitter">
+								<i class="icon-glyph-339"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="gplus circle" title="gplus">
+								<i class="icon-glyph-317"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="dribbble circle" title="dribbble">
+								<i class="icon-dribbble"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="linkedin circle" title="linkedin">
+								<i class="icon-linkedin"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="container">
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">
+				<!-- hamburger button -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- / hamburger button -->
+				<!-- Logo -->
+				<a class="navbar-brand" href="index.html"><img src="images/main-logo.png" alt="QED website template"/></a>
+				<!-- /Logo -->
+			</div>
+			<div class="collapse navbar-collapse">
+				<!-- Main navigation -->
+				<ul class="nav navbar-nav navbar-right" style="padding-top: 6px;">
+					<li>
+						<a href="#" class="active has-sub-menu">Home</a>
+						<ul class="sub-menu">
+							<li><a href="#">Smenu 1</a></li>
+							<li><a href="#">Smenu 2</a></li>
+							<li class="last">
+								<a href="#" class="has-sub-menu">Smenu 3</a>
+								<ul class="sub-menu">
+									<li><a href="#">SSmenu 1</a></li>
+									<li><a href="#">SSmenu 2</a></li>
+									<li class="last">
+										<a href="#" class="has-sub-menu">SSmenu 3</a>
+										<ul class="sub-menu">
+											<li><a href="#">SSSmenu 1</a></li>
+											<li><a href="#">SSSmenu 2</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li> 
+						<a href="#">Features</a>
+					</li>
+					<li class="neko-mega-menu-trigger">
+						<a href="#" class="has-sub-menu">Mega menu</a>
+						<div class="neko-mega-menu sub-menu">
+							<div class="container-fluid">	
+								<div class="row">
+									<div class="col-md-4">
+										<div class="mega-inner">
+											<h2>Who doesn't love mega menu?</h2>
+											<img alt="" src="/files/images/team/team-corporate-1.jpg" class="img-responsive">
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="mega-inner">
+											<h2>Home options</h2>
+											<ul>
+												<li><a href="#">Default</a></li>
+												<li><a href="#">Revolution Slider</a></li>
+												<li><a href="#">Revolution Slider 2</a></li>
+												<li><a href="#">Camera Slider</a></li>
+												<li><a href="#">Fullscreen Slider</a></li>
+												<li><a href="#">Blog style</a></li>
+												<li><a href="#">No Slider</a></li>
+												<li><a href="#">One page</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="mega-inner">
+											<h2>Some page templates</h2>
+											<ul>
+												<li><a href="#">Menu left</a></li>
+												<li><a href="#">Sidebar right</a></li>
+												<li><a href="#">2 sidebars</a></li>
+												<li><a href="#">Contact</a></li>
+												<li><a href="#">Full width</a></li>
+												<li><a href="#">Our plans</a></li>
+												<li><a href="#">About us</a></li>
+												<li><a href="#">Our team</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#" class="has-sub-menu">Templates</a>
+						<ul class="sub-menu">
+							<li><a href="#">Default</a></li>
+							<li><a href="#">Revolution Slider</a></li>
+							<li><a href="#">Revolution Slider 2</a></li>
+							<li><a href="#">Camera Slider</a></li>
+							<li><a href="#">Fullscreen Slider</a></li>
+							<li><a href="#">Blog style</a></li>
+							<li><a href="#">No Slider</a></li>
+							<li class="last"><a href="#">One page</a></li>
+						</ul>
+					</li>
+				</ul>
+				<!-- End main navigation -->
+			</div>
+		</nav>
+	</div>
+</header></div>
+					</div>
+				</section>	
+
+
+
+				<!-- Tabs -->
+				<h2 class="ln-doc">Tabs</h2>
+				<!-- Standard tabs -->
+				<section class="slice">
+
+					<h3 class="ln-doc">Standard tabs</h3>
+					<p>
+					</p>
+
+					<div class="ln-doc-example">
+
+<div class="prism zeroclip" data-xrayhtml><ul id="myTab" class="nav nav-tabs" role="tablist">
+	<li class="active"><a href="#first-tab" role="tab" data-toggle="tab">First tab</a></li>
+	<li class=""><a href="#second-tab" role="tab" data-toggle="tab">Second tab</a></li>
+	<li class="dropdown">
+		<a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">
+			Dropdown 
+			<span class="caret"></span>
+		</a>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+			<li><a href="#dropdown" tabindex="-1" role="tab" data-toggle="tab">@fat</a></li>
+			<li><a href="#dropdown2" tabindex="-1" role="tab" data-toggle="tab">@mdo</a></li>
+		</ul>
+	</li>
+</ul>
+<div id="myTabContent" class="tab-content">
+	<div class="tab-pane fade active in" id="first-tab">
+		<p>content tab 1</p>
+	</div>
+	<div class="tab-pane fade" id="second-tab">
+		<p>content tab 2</p>
+	</div>
+	<div class="tab-pane fade" id="dropdown">
+		<p>content tab dropdown 1</p>
+	</div>
+	<div class="tab-pane fade" id="dropdown2">
+		<p>content tab dropdown 2</p>
+	</div>
+</div></div>
+					</div>
+
+				</section>
+				<!-- / Standard tabs -->
+
+				<!-- Icon tabs -->
+				<section class="slice">
+
+					<h3 class="ln-doc">Icon Tabs</h3>
+					<p>
+					</p>
+
+					<div class="ln-doc-example">
+
+<div class="prism zeroclip" data-xrayhtml><ul id="myTab" class="nav nav-tabs" role="tablist">
+	<li class="active">
+		<a href="#first-tab-ic" role="tab" data-toggle="tab">
+			<i class="icon-glyph-10"></i>
+			First tab
+		</a>
+	</li>
+	<li>
+		<a href="#second-tab-ic" role="tab" data-toggle="tab">
+			<i class="icon-glyph-15"></i>
+			Second tab
+		</a>
+	</li>
+	<li class="dropdown">
+		<a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">
+			<i class="icon-info"></i>
+			Dropdown 
+			<span class="caret"></span>
+		</a>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+			<li><a href="#dropdown-ic" tabindex="-1" role="tab" data-toggle="tab">@fat</a></li>
+			<li><a href="#dropdown2-ic" tabindex="-1" role="tab" data-toggle="tab">@mdo</a></li>
+		</ul>
+	</li>
+</ul>
+<div id="myTabContent1" class="tab-content">
+	<div class="tab-pane fade active in" id="first-tab-ic">
+		<p>content tab 1</p>
+	</div>
+	<div class="tab-pane fade" id="second-tab-ic">
+		<p>content tab 2</p>
+	</div>
+	<div class="tab-pane fade" id="dropdown-ic">
+		<p>content tab dropdown 1</p>
+	</div>
+	<div class="tab-pane fade" id="dropdown2-ic">
+		<p>content tab dropdown 2</p>
+	</div>
+</div></div>
+					</div>
+
+				</section>
+				<!-- Standard tabs -->
+
+				<!-- Tabs menu on left -->
+				<section class="slice">
+
+					<h3 class="ln-doc">Tabs with menu on left</h3>
+					<p>
+					</p>
+
+					<div class="ln-doc-example">
+<div class="prism zeroclip" data-xrayhtml><div class="tabs-left">
+	<ul id="myTab" class="nav nav-tabs" role="tablist">
+		<li class="active">
+			<a href="#first-tab-ct" role="tab" data-toggle="tab">First tab</a>
+		</li>
+		<li class="">
+			<a href="#second-tab-ct" role="tab" data-toggle="tab">Second tab</a>
+		</li>
+		<li class="dropdown">
+			<a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">
+			Dropdown 
+			<span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+				<li>
+					<a href="#dropdown-ct" tabindex="-1" role="tab" data-toggle="tab">@fat</a>
+				</li>
+				<li>
+					<a href="#dropdown2-ct" tabindex="-1" role="tab" data-toggle="tab">@mdo</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<div id="myTabContent" class="tab-content">
+		<div class="tab-pane fade active in" id="first-tab-ct">
+			<h2>content tab 1</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<div class="tab-pane fade" id="second-tab-ct">
+			<h2>content tab 2</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<div class="tab-pane fade" id="dropdown-ct">
+			<h2>content tab dropdown 1</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<div class="tab-pane fade" id="dropdown2-ct">
+			<h2>content tab dropdown 2</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+	</div>
+</div></div>
+					</div>
+
+				</section>
+				<!-- Tabs menu on left -->
+
+				<!-- Tabs menu on right -->
+				<section class="slice">
+
+					<h3 class="ln-doc">Tabs with menu on right</h3>
+					<p>
+					</p>
+
+					<div class="ln-doc-example">
+<div class="prism zeroclip" data-xrayhtml><div class="tabs-right">
+	<ul id="myTab" class="nav nav-tabs" role="tablist">
+		<li class="active">
+			<a href="#first-tab-ct" role="tab" data-toggle="tab">First tab</a>
+		</li>
+		<li class="">
+			<a href="#second-tab-ct" role="tab" data-toggle="tab">Second tab</a>
+		</li>
+		<li class="dropdown">
+			<a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">
+				Dropdown 
+				<span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+				<li>
+					<a href="#dropdown-ct" tabindex="-1" role="tab" data-toggle="tab">@fat</a>
+				</li>
+				<li>
+					<a href="#dropdown2-ct" tabindex="-1" role="tab" data-toggle="tab">@mdo</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<div id="myTabContent" class="tab-content">
+		<div class="tab-pane fade active in" id="first-tab-ct">
+			<h2>content tab 1</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<div class="tab-pane fade" id="second-tab-ct">
+			<h2>content tab 2</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<div class="tab-pane fade" id="dropdown-ct">
+			<h2>content tab dropdown 1</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<div class="tab-pane fade" id="dropdown2-ct">
+			<h2>content tab dropdown 2</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+	</div>
+</div></div>
+					</div>
+
+				</section>
+				<!-- Tabs menu on right -->
+
+				<!-- Minimal tabs -->
+				<section class="slice">
+
+					<h3 class="ln-doc">Minimal tabs</h3>
+					<p>
+						Change the tabs styling by wrapping the tabs inside a div with a <code>.tabs-minimal</code> class.
+					</p>
+
+					<div class="ln-doc-example">
+
+<div class="prism zeroclip" data-xrayhtml><div class="tabs-minimal">
+	<ul id="myTabMinimal" class="nav nav-tabs" role="tablist">
+		<li class="active"><a href="#first-tab-2" role="tab" data-toggle="tab">First tab</a></li>
+		<li class=""><a href="#second-tab-2" role="tab" data-toggle="tab">Second tab</a></li>
+		<li class=""><a href="#third-tab-2" role="tab" data-toggle="tab">Third tab</a></li>
+	</ul>
+	<div id="myTabContent" class="tab-content">
+		<div class="tab-pane fade active in" id="first-tab-2">
+			<p>content tab 1</p>
+		</div>
+		<div class="tab-pane fade" id="second-tab-2">
+			<p>content tab 2</p>
+		</div>
+		<div class="tab-pane fade" id="third-tab-2">
+			<p>content tab 3</p>
+		</div>
+	</div>
+</div>
+					</div>
+					</div>
+
+				</section>
+				<!-- / Minimal tabs -->
+				<!-- Tabs -->
+
+
+				<!-- Form boxes -->
+				<h2 class="ln-doc">Form</h2> 
+				<!-- Form boxes 2 columns -->
+				<section class="slice">
+					<div class="ln-doc-example">
+<div class="prism zeroclip" data-xrayhtml><div class="container">
+	<div class="row">
+		<form method="post" action="neko-framework/external-plugins/neko-contact-ajax-plugin/php/form-handler.php" id="contactfrm" role="form">
+			<div class="col-sm-6"> 
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" class="form-control" name="name" id="name" placeholder="Enter name"  title="Please enter your name (at least 2 characters)"/>
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address"/>
+				</div>
+				<div class="form-group">
+					<label for="phone">Phone</label>
+					<input name="phone" class="form-control required digits" type="tel" id="phone" size="30" value="" placeholder="Enter email phone" title="Please enter a valid phone number (at least 10 characters)">
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="form-group">
+					<label for="comments">Comments</label>
+					<textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+				</div>
+				<fieldset class="clearfix securityCheck">
+					<h3>Security</h3>
+
+					<div class="form-group">
+						<label for="verify">		
+							<img src="../../files/neko-framework/external-plugins/neko-contact-ajax-plugin/php/image.php" alt="Image verification"/>
+						</label>
+						<input class="required form-control"  id="verify" name="verify" type="text" placeholder="Enter the captcha…">
+					</div>
+				</fieldset>
+			</div>                        
+			<div class="col-md-6">
+				<button name="submit" type="submit" class="btn large primary" id="submit"> Submit</button>
+				<div class="result"></div>
+			</div>
+		</form>
+	</div>
+</div></div>
+
+
+					</div>
+				</section>
+				<!-- /Form boxes 2 columns -->
+
+				<!-- Form boxes 2 columns -->
+				<section class="slice">
+					<h3 class="ln-doc">Minimal form</h3>
+					<p>
+						Change the form styling adding <code>.form-minimal</code> class to the form element, and <code>&lt;div class="form-line">&lt;/div></code> after the inputs.
+					</p>
+					<div class="ln-doc-example">
+<div class="prism zeroclip" data-xrayhtml><div class="container">
+	<div class="row">
+		<form method="post" action="neko-framework/external-plugins/neko-contact-ajax-plugin/php/form-handler.php" id="contactfrm" role="form" class="form-minimal">
+			<div class="col-sm-6"> 
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" class="form-control" name="name" id="name" placeholder="Enter name"  title="Please enter your name (at least 2 characters)"/>
+					<div class="form-line"></div>
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address"/>
+					<div class="form-line"></div>
+				</div>
+				<div class="form-group">
+					<label for="phone">Phone</label>
+					<input name="phone" class="form-control required digits" type="tel" id="phone" size="30" value="" placeholder="Enter email phone" title="Please enter a valid phone number (at least 10 characters)">
+					<div class="form-line"></div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="form-group">
+					<label for="comments">Comments</label>
+					<textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+					<div class="form-line"></div>
+				</div>
+				<fieldset class="clearfix securityCheck">
+					<h3>Security</h3>
+
+					<div class="form-group">
+						<label for="verify">		
+							<img src="../../files/neko-framework/external-plugins/neko-contact-ajax-plugin/php/image.php" alt="Image verification"/>
+						</label>
+						<input class="required form-control"  id="verify" name="verify" type="text" placeholder="Enter the captcha…">
+						<div class="form-line"></div>
+					</div>
+				</fieldset>
+			</div>                        
+			<div class="col-md-6">
+				<button name="submit" type="submit" class="btn large primary" id="submit"> Submit</button>
+				<div class="result"></div>
+			</div>
+		</form>
+	</div>
+</div></div>
+
+
+					</div>
+				</section>
+				<!-- /Form boxes 2 columns -->
+				
+	
+
+				<!-- /Form boxes -->
+
+				<!-- Boostrap carousel -->
+				<h2 class="ln-doc">Boostrap carousel</h2> 
+				<section class="slice">
+					<h3 class="ln-doc">Examples</h3>
+					<p>The slideshow below shows a generic plugin and component for cycling through elements like a carousel.<br> 
+						To get a complete explanation on how bootstrap carousel system works ckeck the bootstrap documentation <a href="http://getbootstrap.com/javascript/#carousel" title="Bootstrap Carousel carousel.js" target="_blank">here</a></p>
+						<div class="ln-doc-example">
+
+<div class="prism zeroclip" data-xrayhtml><div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	</ol>
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner">
+		<div class="item active">
+			<img src="images/carousels/img1.jpg" alt="img1">
+			<div class="carousel-caption">
+				<h3>First slide label</h3>
+				<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+			</div>
+		</div>
+		<div class="item">
+			<img src="images/carousels/img2.jpg" alt="img1">
+			<div class="carousel-caption">
+				<h3>Second slide label</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+		</div>
+	</div>
+	<!-- Controls -->
+	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		<span class="icon-glyph-41"></span>
+	</a>
+	<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		<span class="icon-glyph-40"></span>
+	</a>
+</div></div>
+
+						</div>
+					</section>
+					<!-- /Boostrap carousel -->
+
+
+
+					<!-- Owl carousel -->
+					<h2 class="ln-doc">Owl carousel</h2> 
+					<p>The slideshow below shows a generic plugin and component for cycling through elements like a carousel.<br> 
+						To get a complete explanation on how Owl Carousel system works ckeck the Owl carousel documentation <a href="http://owlgraphic.com/owlcarousel/" title="Owl carousel" target="_blank">here</a>
+					</p>
+					<section class="slice">
+						<h3 class="ln-doc">Sliding Gallery</h3>
+
+						<div class="ln-doc-example">
+							<div class="owl-carousel neko-data-owl" data-neko_items="3" data-neko_singleitem="false" data-neko_paginationnumbers="true">
+								<div class="item">
+
+									<img src="images/carousels/vign1.jpg" alt="HIDEO premium website template" class="img-responsive"/>
+									
+								</div>
+								<div class="item">
+
+									<img src="images/carousels/vign2.jpg" alt="HIDEO premium website template" class="img-responsive"/>
+									
+								</div>
+								<div class="item">
+
+									<img src="images/carousels/vign3.jpg" alt="HIDEO premium website template" class="img-responsive"/>
+									
+								</div>
+								<div class="item">
+
+									<img src="images/carousels/vign4.jpg" alt="HIDEO premium website template" class="img-responsive"/>
+
+								</div>
+								<div class="item">
+
+									<img src="images/carousels/vign5.jpg" alt="HIDEO premium website template" class="img-responsive"/>
+									
+								</div>
+								<div class="item">
+
+									<img src="images/carousels/vign6.jpg" alt="HIDEO premium website template" class="img-responsive"/>
+									
+								</div>
+								<div class="item">
+
+									<img src="images/carousels/vign7.jpg" alt="HIDEO premium website template" class="img-responsive"/>
+									
+								</div>
+								<div class="item">
+
+									<img src="images/carousels/vign8.jpg" alt="HIDEO premium website template" class="img-responsive"/>
+									
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slice">
+						<h3 class="ln-doc">Sliding Gallery with margin</h3>
+						<p>Add <code>.owl-margins</code> class to add a margin-right on elements.
+						</p>
+
+						<div class="ln-doc-example">
+							<div class="owl-carousel owl-margins neko-data-owl" data-neko_items="3" data-neko_singleitem="false" data-neko_paginationnumbers="false"  data-neko_navigation="false">
+								<div class="item">
+
+									<img src="images/carousels/vign1.jpg" alt="HIDEO premium website template" class="full-width"/>
+									
+								</div>
+								<div class="item">
+
+									<img src="images/carousels/vign2.jpg" alt="HIDEO premium website template" class="full-width"/>
+									
+								</div>
+								<div class="item">
+
+									<img src="images/carousels/vign3.jpg" alt="HIDEO premium website template" class="full-width"/>
+									
+								</div>
+								<div class="item">
+
+									<img src="images/carousels/vign4.jpg" alt="HIDEO premium website template" class="full-width"/>
+
+								</div>
+								<div class="item">
+
+									<img src="images/carousels/vign5.jpg" alt="HIDEO premium website template" class="full-width"/>
+									
+								</div>
+								<div class="item">
+
+									<img src="images/carousels/vign6.jpg" alt="HIDEO premium website template" class="full-width"/>
+									
+								</div>
+								<div class="item">
+
+									<img src="images/carousels/vign7.jpg" alt="HIDEO premium website template" class="full-width"/>
+									
+								</div>
+								<div class="item">
+
+									<img src="images/carousels/vign8.jpg" alt="HIDEO premium website template" class="full-width"/>
+									
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slice">
+						<h3 class="ln-doc">One slide</h3>
+
+						<div class="ln-doc-example">
+
+							<div class="owl-carousel neko-data-owl" data-neko_items="1" data-neko_singleitem="true" data-neko_navigationText="true" data-neko_navigation="true" data-neko_transitionstyle="goDown">
+								<!-- owl carousel item 1 -->
+								<div class="item">
+									<img src="images/carousels/vign1.jpg" alt="image" class="full-width"/>
+								</div>
+								<!-- / owl carousel item 1 -->
+								<!-- owl carousel item 2 -->
+								<div class="item">
+									<img src="images/carousels/vign2.jpg" alt="image" class="full-width"/>
+								</div>
+								<!-- / owl carousel item 2 -->
+								<!-- owl carousel item 3 -->
+								<div class="item">
+									<img src="images/carousels/vign3.jpg" alt="image" class="full-width"/>
+								</div>
+								<!-- / owl carousel item 3 -->
+								<!-- owl carousel item 4 -->
+								<div class="item">
+									<img src="images/carousels/vign4.jpg" alt="image" class="full-width"/>
+								</div>
+								<!-- / owl carousel item 4 -->
+							</div>
+						</div>
+						</section>
+						<section class="slice">	
+
+							<h3 class="ln-doc">One slide with HTML content</h3>
+
+							<div class="ln-doc-example">
+								<div class="owl-carousel neko-data-owl" data-neko_items="1" data-neko_singleitem="true" data-neko_paginationnumbers="true" data-neko_autoheight="true" >
+									<!-- owl carousel item 1 -->
+									<div class="item">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/carousels/vign1.jpg" alt="image" class="full-width"/>
+											</div>
+											<div class="col-md-6">
+												<h3  class="no-mt">Lorem ipsum dolor sit amet</h3>
+												<p>
+													Consectetur adipiscing elit. Nunc purus nibh, aliquam sit amet commodo vitae, laoreet vitae enim. Fusce ac egestas sapien. Etiam cursus, sapien in placerat congue, odio elit viverra arcu, a tincidunt diam libero quis risus. Fusce a pellentesque lectus. 
+												</p>
+											</div>
+										</div>
+									</div>
+									<!-- / owl carousel item 1 -->
+									<!-- owl carousel item 2 -->
+									<div class="item">
+										<div class="row">
+											<div class="col-md-4">
+												<img src="images/carousels/vign2.jpg" alt="image" class="full-width rounded"/>
+											</div>
+											<div class="col-md-8">
+												<h3 class="no-mt">Lorem ipsum dolor sit amet</h3>
+												<p>
+													Sed non vestibulum purus. Mauris posuere turpis in accumsan facilisis. Aliquam lorem ante, suscipit in erat a, dignissim vehicula enim. Etiam aliquam non justo nec consectetur. Morbi fermentum, libero non sodales fringilla, mi lacus vulputate mauris, ac fringilla ligula nisi non enim. Duis laoreet dui ut purus pharetra tristique. Donec augue metus, cursus quis lorem ut, malesuada pellentesque ligula.
+												</p>
+											</div>
+
+										</div>
+									</div>
+									<!-- / owl carousel item 2 -->
+									<!-- owl carousel item 3 -->
+									<div class="item">
+										<div class="row">
+
+											<div class="col-md-4">
+												<div class="box-icon">
+													<a href="#">
+														<i class="icon-glyph-52 large circle"></i>
+														<h2>Lorem ipsum dolor</h2>
+														<p>
+															Elegant layouts that help you organize your content
+														</p>
+													</a>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="box-icon">
+													<a href="#">
+														<i class="icon-glyph-52 large circle"></i>
+														<h2>Lorem ipsum dolor</h2>
+														<p>
+															Elegant layouts that help you organize your content
+														</p>
+													</a>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="box-icon">
+													<a href="#">
+														<i class="icon-glyph-52 large circle"></i>
+														<h2>Lorem ipsum dolor</h2>
+														<p>
+															Elegant layouts that help you organize your content
+														</p>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- / owl carousel item 3 -->
+									<!-- owl carousel item 4 -->
+									<div class="item">
+										<div class="row">
+											<div class="col-md-12">
+												<img src="images/carousels/vign4.jpg" alt="image" class="full-width"/>
+											</div>
+										</div>
+									</div>
+									<!-- / owl carousel item 4 -->
+								</div>					
+							</div>
+						</section>
+
+						<section class="slice">
+						<h3 class="ln-doc">One slide with captions</h3>
+
+
+						<div class="ln-doc-example">
+
+							<div class="owl-carousel neko-data-owl" data-neko_items="1" data-neko_singleitem="true" data-neko_paginationnumbers="true" data-neko_transitionstyle="fadeUp">
+								<!-- owl carousel item 2 -->
+
+								<div class="item">
+									<img src="images/carousels/vign2.jpg" alt="image" class="full-width"/>
+
+									<div class="caption-wrapper hidden-xs">
+										<div class="caption">
+											<div class="caption-content-position text-center v-middle">
+												<div class="caption-content text-light" data-neko_animation="fadeInLeftBig">
+													<h1 class="large">Title inside a caption</h1>		
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula orci ipsum, nec condimentum justo pharetra vel. Donec a egestas velit, vel tempus mauris. </p>
+												</div>
+												<br>
+												<a href="http://www.google.com" title="{$slide.slide_btnname}" class="btn default large" data-neko_animation="fadeInRightBig">
+													Read More
+												</a>
+											</div>
+										</div>
+									</div>
+
+
+								</div>
+
+								<!-- / owl carousel item 2 -->
+
+								<!-- owl carousel item 2 -->
+								<div class="item">
+									<img src="images/carousels/vign1.jpg" alt="image" class="full-width"/>
+
+									<div class="caption-wrapper hidden-xs">
+										<div class="caption">
+											<div class="caption-content-position text-right v-bottom">
+												<div class="caption-content" data-neko_animation="fadeInDownBig">
+													<div class="box main-color padding-small inline mb-small">
+														<h1 class="large">Title inside a box</h1>	
+													</div>	
+													<p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula orci ipsum, nec condimentum justo pharetra vel. Donec a egestas velit, vel tempus mauris. </p>
+												</div>
+												<a href="#" title="slide" class="btn default" data-neko_animation="fadeInUpBig">
+													Read More
+												</a>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+
+
+
+								<!-- / owl carousel item 2 -->
+
+								<!-- owl carousel item 3 -->
+								<div class="item">
+									<img src="images/carousels/vign3.jpg" alt="image" class="full-width"/>
+
+									<div class="caption-wrapper hidden-xs">
+										<div class="caption right">
+											<div class="caption-content-position text-left v-top">
+												<div class="caption-content text-light" data-neko_animation="flipInX">
+													<h1>Caption can easily be positionned via simple css classes</h1>		
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+												</div>
+												<br>
+												<a href="#" title="caption" class="btn default large" data-neko_animation="flipInX">
+													Read More
+												</a>
+											</div>
+										</div>
+									</div>
+
+
+								</div>
+								<!-- / owl carousel item 3 -->
+								
+							</div>
+
+						</div>
+
+					</section>
+					<!-- /Owl carousel -->
+
+					<!-- Superslides -->
+					<h2 class="ln-doc">Other supported slider</h2> 
+					<section class="slice">
+
+						<h3 class="ln-doc">Superslides</h3>
+						<p>
+							Superslides is a full screen, hardware accelerated slider for jQuery. I wasn't happy with the state of full screen sliders, so naturally I built my own. To get a complete explanation on how Superlsides works ckeck the documentation <a href="https://github.com/nicinabox/superslides" title="Superlsides doc" target="_blank">here</a> 
+						</p>
+
+						<h3 class="ln-doc">Swiper</h3>
+						<p>
+							Swiper is the free and ultra lightweight mobile touch slider with hardware accelerated transitions (where supported) and amazing native behavior. To get a complete explanation on how Swiper works ckeck the documentation <a href="http://www.idangero.us/sliders/swiper/" title="Swiper doc" target="_blank">here</a> 
+						</p>
+					</section>
+					<!-- /Superslides -->
+
+
+
+
+
+					<!-- Parallax -->
+					<h2 class="ln-doc">Parallax</h2> 
+					<section class="slice">
+						<h3 class="ln-doc">Section parallax</h3>
+						<p>
+						</p>
+
+						<div class="ln-doc-example">
+<div class="prism zeroclip" data-xrayhtml><section class="parallax image-background image-0 text-light"  data-stellar-background-ratio="0.3">
+	<div class="mask">
+		<div class="container pt-large pb-large">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h1 class="large">It’s the little details that are vital.</h1>
+					<p class="lead">Little things make big things happen.
+					</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section></div>
+						</div>
+
+				<!-- Page header Parallax -->
+				<section class="slice">
+					<h3 class="ln-doc">Page header parallax</h3>
+					<p>
+					</p>
+					<div class="ln-doc-example">
+
+<div class="prism zeroclip" data-xrayhtml><header class="parallax page-header image-background image-0 text-light"  data-stellar-background-ratio="0.3">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Title <small>Subtext for header</small></h1>
+				<p>
+					Cras justo odio, dapibus ac facilisis in, egestas eget quam. 
+					Donec id elit non mi porta gravida at eget metus. 
+					Nullam id dolor id nibh ultricies vehicula ut id elit.
+				</p>
+			</div>
+		</div>
+	</div>
+</header></div>
+
+					</div>
+				</section>
+				<!-- /Page header Parallax -->
+
+
+					</section>
+					<!-- /Parallax -->
+
+					<!-- Modals -->
+					<h2 class="ln-doc">Modals</h2> 
+					<section class="slice">
+						<h3 class="ln-doc">Live demo</h3>
+						<p>Toggle a modal via JavaScript by clicking the button below. It will slide down and fade in from the top of the page.<br> 
+							To get a complete explanation on how bootstrap modal system works ckeck the bootstrap documentation <a href="http://getbootstrap.com/javascript/#modals" title="Bootstrap Modals modal.js" target="_blank">here</a></p>
+							<div class="ln-doc-example">
+
+<div class="prism zeroclip" data-xrayhtml><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"> 
+		Launch demo modal 
+	</button>
+
+	<!-- Regular modal -->
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+					</button>
+					<h4 class="modal-title">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					<p>One fine body&hellip;</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">
+						Close
+					</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+</div></div>
+							</div>
+						</section>
+
+						<section class="slice">
+							<h3 class="ln-doc">Optional sizes</h3>
+							<p> Modals have two optional sizes, available via modifier classes to be placed on a .modal-dialog. </p>
+							<div class="ln-doc-example">
+
+
+<div class="prism zeroclip" data-xrayhtml><button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">
+	Large modal
+</button>
+
+<!-- Large modal -->
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">
+					<span aria-hidden="true">&times;</span>
+					<span class="sr-only">Close</span>
+				</button>
+				<h4 class="modal-title">Large modal</h4>
+			</div>
+			<div class="modal-body">
+				<p>One fine body&hellip;</p>
+			</div>
+		</div>
+	</div>
+</div></div>
+<div class="prism zeroclip" data-xrayhtml><button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">
+	Small modal
+</button>
+
+<!-- Small modal -->
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">
+					<span aria-hidden="true">&times;</span>
+					<span class="sr-only">Close</span>
+				</button>
+				<h4 class="modal-title">Small modal</h4>
+			</div>
+			<div class="modal-body">
+				<p>One fine body&hellip;</p>
+			</div>
+		</div>
+	</div>
+</div></div>
+							</div>
+						</section>
+
+						<!-- /Modals -->
+
+
+					</div><!--/row-->
+
+				</div><!--/.fluid-container-->
+
+	<!-- Js scripts
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script type="text/javascript" src="js/jquery/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="../../files/neko-framework/external-plugins/easing/jquery.easing.1.3.js"></script>
+
+	<script type="application/javascript" src="../../files/neko-framework/external-plugins/external-plugins.min.js"></script>
+	<!-- neko framework script -->
+	<script type="text/javascript" src="../../files/neko-framework/js/neko-framework.js"></script>
+
+	<!-- tocify -->
+	<script src="js/jquery.tocify.min.js"></script>
+
+	<!-- X-rayHTML -->
+	<script type="text/javascript" src="js/x-rayHtml/X-rayHTML.js"></script>
+	<script type="text/javascript" src="js/x-rayHtml/libs/prism.min.js"></script>
+	<script type="text/javascript" src="js/x-rayHtml/libs/ZeroClipboard.min.js"></script>
+	<script type="text/javascript" src="js/x-rayHtml/X-rayHtml-config.js"></script>
+
+	<script src="js/main.js"></script>
+
+</div></body></html>

@@ -1,0 +1,48 @@
+v1.4
+- fixed missing semicolon in neko-framework.js
+- fixed content-type declaration in image.php (contact form plugin)
+- fixed a bug with bootstrap modal
+- fixed homepage image device width in firefox
+
+V1.3
+- removed overlay on video that prevented button action on iPad
+- added 4 one page variants
+- added margins on fullscreen Google map on mobile
+- fixed tabs colors 
+
+V1.2
+- fixed main menu bug on google nexus 10
+- fixed logo grid bug on mobile devices
+- fixed swiper tab bug on mobile devices
+- updated preheader showing options
+- Added new header management system
+
+V1.1.2
+- fixed tabs padding on mobile
+- fixed masonery with gutters on tablets
+- fixed mobile vertical text align on pages with menu transparent
+- fixed Revolution slider display on mobile
+- fixed x-large page header on mobile
+- enhanced feature box display on mobile
+- enhanced google map infowindow styles
+- enhanced blog small display on tablet
+- moved google map configuration in custom.js
+
+V1.1.1
+- fixed feature box variants
+- fixed icon color inside buttons
+- fixed responsive placement of swiper navigation
+- harmonized swiper and owl navigation
+- added 5 color schemes
+
+V1.1
+- added home variant 20
+- added services page 5
+- added about us page 5
+- added team page 5
+- added contact page 5
+- added owl carousel left and right navigation class
+- added menu styles demos
+- enhanced contact-3 styling
+- enhanced modal and magnific popup styling
+- fixed and enhanced sub-menus styling
